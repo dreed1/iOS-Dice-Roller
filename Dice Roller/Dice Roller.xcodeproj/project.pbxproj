@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8F0F82315DB4585006339DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0F82215DB4585006339DA /* UIKit.framework */; };
+		E8F0F82515DB4585006339DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0F82415DB4585006339DA /* Foundation.framework */; };
+		E8F0F82715DB4585006339DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0F82615DB4585006339DA /* CoreGraphics.framework */; };
+		E8F0F82D15DB4585006339DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8F0F82B15DB4585006339DA /* InfoPlist.strings */; };
+		E8F0F82F15DB4585006339DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0F82E15DB4585006339DA /* main.m */; };
+		E8F0F83315DB4585006339DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0F83215DB4585006339DA /* AppDelegate.m */; };
+		E8F0F83B15DB4585006339DA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0F83A15DB4585006339DA /* SenTestingKit.framework */; };
+		E8F0F83C15DB4585006339DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0F82215DB4585006339DA /* UIKit.framework */; };
+		E8F0F83D15DB4585006339DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F0F82415DB4585006339DA /* Foundation.framework */; };
+		E8F0F84515DB4585006339DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8F0F84315DB4585006339DA /* InfoPlist.strings */; };
+		E8F0F84815DB4586006339DA /* Dice_RollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0F84715DB4586006339DA /* Dice_RollerTests.m */; };
+		E8F0F85715DB4866006339DA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F0F85515DB4866006339DA /* RootViewController.m */; };
+		E8F0F85815DB4866006339DA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F0F85615DB4866006339DA /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8F0F83E15DB4585006339DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8F0F81515DB4585006339DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F0F81D15DB4585006339DA;
+			remoteInfo = "Dice Roller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8F0F81E15DB4585006339DA /* Dice Roller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Roller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F0F82215DB4585006339DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E8F0F82415DB4585006339DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E8F0F82615DB4585006339DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E8F0F82A15DB4585006339DA /* Dice Roller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dice Roller-Info.plist"; sourceTree = "<group>"; };
+		E8F0F82C15DB4585006339DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8F0F82E15DB4585006339DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8F0F83015DB4585006339DA /* Dice Roller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dice Roller-Prefix.pch"; sourceTree = "<group>"; };
+		E8F0F83115DB4585006339DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8F0F83215DB4585006339DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8F0F83915DB4585006339DA /* Dice RollerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice RollerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F0F83A15DB4585006339DA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E8F0F84215DB4585006339DA /* Dice RollerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dice RollerTests-Info.plist"; sourceTree = "<group>"; };
+		E8F0F84415DB4585006339DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E8F0F84615DB4585006339DA /* Dice_RollerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dice_RollerTests.h; sourceTree = "<group>"; };
+		E8F0F84715DB4586006339DA /* Dice_RollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice_RollerTests.m; sourceTree = "<group>"; };
+		E8F0F85415DB4866006339DA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E8F0F85515DB4866006339DA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E8F0F85615DB4866006339DA /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8F0F81B15DB4585006339DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0F82315DB4585006339DA /* UIKit.framework in Frameworks */,
+				E8F0F82515DB4585006339DA /* Foundation.framework in Frameworks */,
+				E8F0F82715DB4585006339DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0F83515DB4585006339DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0F83B15DB4585006339DA /* SenTestingKit.framework in Frameworks */,
+				E8F0F83C15DB4585006339DA /* UIKit.framework in Frameworks */,
+				E8F0F83D15DB4585006339DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8F0F81315DB4585006339DA = {
+			isa = PBXGroup;
+			children = (
+				E8F0F82815DB4585006339DA /* Dice Roller */,
+				E8F0F84015DB4585006339DA /* Dice RollerTests */,
+				E8F0F82115DB4585006339DA /* Frameworks */,
+				E8F0F81F15DB4585006339DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8F0F81F15DB4585006339DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0F81E15DB4585006339DA /* Dice Roller.app */,
+				E8F0F83915DB4585006339DA /* Dice RollerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F0F82115DB4585006339DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0F82215DB4585006339DA /* UIKit.framework */,
+				E8F0F82415DB4585006339DA /* Foundation.framework */,
+				E8F0F82615DB4585006339DA /* CoreGraphics.framework */,
+				E8F0F83A15DB4585006339DA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8F0F82815DB4585006339DA /* Dice Roller */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0F85415DB4866006339DA /* RootViewController.h */,
+				E8F0F85515DB4866006339DA /* RootViewController.m */,
+				E8F0F85615DB4866006339DA /* RootViewController.xib */,
+				E8F0F83115DB4585006339DA /* AppDelegate.h */,
+				E8F0F83215DB4585006339DA /* AppDelegate.m */,
+				E8F0F82915DB4585006339DA /* Supporting Files */,
+			);
+			path = "Dice Roller";
+			sourceTree = "<group>";
+		};
+		E8F0F82915DB4585006339DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0F82A15DB4585006339DA /* Dice Roller-Info.plist */,
+				E8F0F82B15DB4585006339DA /* InfoPlist.strings */,
+				E8F0F82E15DB4585006339DA /* main.m */,
+				E8F0F83015DB4585006339DA /* Dice Roller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8F0F84015DB4585006339DA /* Dice RollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0F84615DB4585006339DA /* Dice_RollerTests.h */,
+				E8F0F84715DB4586006339DA /* Dice_RollerTests.m */,
+				E8F0F84115DB4585006339DA /* Supporting Files */,
+			);
+			path = "Dice RollerTests";
+			sourceTree = "<group>";
+		};
+		E8F0F84115DB4585006339DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8F0F84215DB4585006339DA /* Dice RollerTests-Info.plist */,
+				E8F0F84315DB4585006339DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8F0F81D15DB4585006339DA /* Dice Roller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F0F84B15DB4586006339DA /* Build configuration list for PBXNativeTarget "Dice Roller" */;
+			buildPhases = (
+				E8F0F81A15DB4585006339DA /* Sources */,
+				E8F0F81B15DB4585006339DA /* Frameworks */,
+				E8F0F81C15DB4585006339DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Roller";
+			productName = "Dice Roller";
+			productReference = E8F0F81E15DB4585006339DA /* Dice Roller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8F0F83815DB4585006339DA /* Dice RollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F0F84E15DB4586006339DA /* Build configuration list for PBXNativeTarget "Dice RollerTests" */;
+			buildPhases = (
+				E8F0F83415DB4585006339DA /* Sources */,
+				E8F0F83515DB4585006339DA /* Frameworks */,
+				E8F0F83615DB4585006339DA /* Resources */,
+				E8F0F83715DB4585006339DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8F0F83F15DB4585006339DA /* PBXTargetDependency */,
+			);
+			name = "Dice RollerTests";
+			productName = "Dice RollerTests";
+			productReference = E8F0F83915DB4585006339DA /* Dice RollerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8F0F81515DB4585006339DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E8F0F81815DB4585006339DA /* Build configuration list for PBXProject "Dice Roller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8F0F81315DB4585006339DA;
+			productRefGroup = E8F0F81F15DB4585006339DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8F0F81D15DB4585006339DA /* Dice Roller */,
+				E8F0F83815DB4585006339DA /* Dice RollerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8F0F81C15DB4585006339DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0F82D15DB4585006339DA /* InfoPlist.strings in Resources */,
+				E8F0F85815DB4866006339DA /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0F83615DB4585006339DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0F84515DB4585006339DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E8F0F83715DB4585006339DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8F0F81A15DB4585006339DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0F82F15DB4585006339DA /* main.m in Sources */,
+				E8F0F83315DB4585006339DA /* AppDelegate.m in Sources */,
+				E8F0F85715DB4866006339DA /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0F83415DB4585006339DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F0F84815DB4586006339DA /* Dice_RollerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8F0F83F15DB4585006339DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F0F81D15DB4585006339DA /* Dice Roller */;
+			targetProxy = E8F0F83E15DB4585006339DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8F0F82B15DB4585006339DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0F82C15DB4585006339DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E8F0F84315DB4585006339DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8F0F84415DB4585006339DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8F0F84915DB4586006339DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F0F84A15DB4586006339DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8F0F84C15DB4586006339DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roller/Dice Roller-Prefix.pch";
+				INFOPLIST_FILE = "Dice Roller/Dice Roller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E8F0F84D15DB4586006339DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roller/Dice Roller-Prefix.pch";
+				INFOPLIST_FILE = "Dice Roller/Dice Roller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E8F0F84F15DB4586006339DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dice Roller.app/Dice Roller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roller/Dice Roller-Prefix.pch";
+				INFOPLIST_FILE = "Dice RollerTests/Dice RollerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E8F0F85015DB4586006339DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dice Roller.app/Dice Roller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice Roller/Dice Roller-Prefix.pch";
+				INFOPLIST_FILE = "Dice RollerTests/Dice RollerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8F0F81815DB4585006339DA /* Build configuration list for PBXProject "Dice Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F0F84915DB4586006339DA /* Debug */,
+				E8F0F84A15DB4586006339DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F0F84B15DB4586006339DA /* Build configuration list for PBXNativeTarget "Dice Roller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F0F84C15DB4586006339DA /* Debug */,
+				E8F0F84D15DB4586006339DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8F0F84E15DB4586006339DA /* Build configuration list for PBXNativeTarget "Dice RollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F0F84F15DB4586006339DA /* Debug */,
+				E8F0F85015DB4586006339DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8F0F81515DB4585006339DA /* Project object */;
+}
